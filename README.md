@@ -26,4 +26,20 @@ Untuk mengerjakan project ini, dibutuhkan alat & bahan sebagai berikut :
 
 # Wiring Diagram
 
-(Under Construction)
+![Wiring Diagram](https://github.com/adioperwira/PenggarisUltrasonik/assets/147690354/3379fcf0-672b-4165-b2bc-806ff9bac378)
+
+Wiring Diagram dengan ketentuan sebagai berikut :
+
+1. Trigger Pin sensor Ultrasonik  -> Pin 2 Arduino
+2. Echo Pin sensor Ultrasonik -> Pin 3 Arduino
+3. Save Button -> Pin 4 Arduino
+4. Pin SCL & SDA LCD Screen terhubung pada pin SCL & SDA Arduino
+
+# Petunjuk Penggunaan
+
+Penggaris Ultrasonik digunakan dengan cara :
+1. Beri sumber Power pada Arduino dengan cara menghubungkan kabel Jack 2.1 mm Battery ke Arduino
+2. Penggaris Ultrasonik akan otomatis menyala. Silahkan tunggu proses booting.
+3.  Arahkan ke objek yang akan diukur jaraknya dan line 1 pada LCD screen akan menghitung jarak secara kontinu setiap 500 millisecond.
+4.  Tekan tombol Push Button Save jika ingin menampilkan data pada line kedua LCD Screen
+
