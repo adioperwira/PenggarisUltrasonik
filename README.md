@@ -24,6 +24,9 @@ Untuk mengerjakan project ini, dibutuhkan alat & bahan sebagai berikut :
 6. Breadboard
 7. Kabel Jumper
 
+Untuk Sketch, menggunakan Library  <LiquidCrystal_I2C.h> , silahkan download terlebih dahulu di library Arduino IDE <br />
+Silahkan cek : https://github.com/johnrickman/LiquidCrystal_I2C
+
 # Wiring Diagram
 
 ![Wiring Diagram](https://github.com/adioperwira/PenggarisUltrasonik/assets/147690354/3379fcf0-672b-4165-b2bc-806ff9bac378)
